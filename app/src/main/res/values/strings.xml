@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DesignPatternForJava</string>
+    <string name="singleton">Singleton</string>
 </resources>
