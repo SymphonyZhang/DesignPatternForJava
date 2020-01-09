@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DesignPatternForJava</string>
-    <string name="singleton">Singleton</string>
+    <string name="singleton">SingletonModel</string>
+    <string name="observer">ObserverModel</string>
 </resources>

@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">设计模式Java版</string>
     <string name="singleton">单例模式</string>
+    <string name="observer">观察者模式</string>
 </resources>

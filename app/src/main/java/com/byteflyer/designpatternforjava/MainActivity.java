@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.byteflyer.designpatternforjava.functions.ObserverActivity;
 import com.byteflyer.designpatternforjava.functions.SingletonActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()){
             case R.id.btn_singleton:
                 goOtherActivity(SingletonActivity.class);
+                break;
+            case R.id.btn_observer:
+                goOtherActivity(ObserverActivity.class);
                 break;
         }
     }
